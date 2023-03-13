@@ -35,7 +35,7 @@ public class PageOne {
 
     public static void setVcClose(Page page) {
         page.setDirty(true);
-        setVcOpen(page.getData());
+        setVcClose(page.getData());
     }
 
     private static void setVcClose(byte[] raw) {
